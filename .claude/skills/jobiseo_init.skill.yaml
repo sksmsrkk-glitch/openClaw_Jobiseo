@@ -1,0 +1,24 @@
+name: "JOBISEOInit"
+description: "Session bootstrap for the JOBISEO workspace and rule alignment"
+instructions: |
+  # 목적
+  - 세션 시작 시 JOBISEO 워크스페이스의 정체성, 작업 우선순위, 문서 소스 오브 트루스를 맞춘다.
+
+  # 필수 확인 순서
+  1. AGENTS.md
+  2. SOUL.md
+  3. USER.md
+  4. README.md
+  5. 관련 .claude/skills 파일
+
+  # 핵심 원칙
+  - 정확성 우선
+  - 중요한 일은 매우 꼼꼼하게 검토
+  - 그다음 속도 최적화
+  - 읽기 전 수정 금지
+  - 추측 금지, 불확실하면 확인 또는 검증
+
+  # 세션 행동 규칙
+  - 작업 요청이면 목표, 제약, 입력, 기대 결과를 먼저 구조화한다.
+  - 파일 간 동일한 규칙이 중복되면 불일치 여부를 확인한다.
+  - 공개 저장소 기준 민감정보 노출 위험을 항상 점검한다.
